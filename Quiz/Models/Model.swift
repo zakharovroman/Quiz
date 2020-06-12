@@ -6,6 +6,7 @@
 //  Copyright © 2020 Роман Захаров. All rights reserved.
 //
 
+/*
 struct QuizQuestion {
     let questionText: String
     let currenAnswer: Int
@@ -55,4 +56,4 @@ extension QuizQuestion {
     }
 }
 
-
+*/
