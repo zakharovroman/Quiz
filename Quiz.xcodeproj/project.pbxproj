@@ -14,6 +14,13 @@
 		30CCB85824936C4700A37A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CCB85724936C4700A37A24 /* Assets.xcassets */; };
 		30CCB85B24936C4700A37A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CCB85924936C4700A37A24 /* LaunchScreen.storyboard */; };
 		30CCB8652493707800A37A24 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCB8642493707800A37A24 /* Model.swift */; };
+		63FDEFDE249423FC0030C411 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFDD249423FB0030C411 /* CategoryViewController.swift */; };
+		63FDEFE0249424030030C411 /* QuestionAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFDF249424030030C411 /* QuestionAnswerViewController.swift */; };
+		63FDEFE2249424090030C411 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFE1249424090030C411 /* ResultViewController.swift */; };
+		63FDEFE4249424100030C411 /* TeamMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFE3249424100030C411 /* TeamMemberViewController.swift */; };
+		63FDEFE62494241A0030C411 /* TeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFE52494241A0030C411 /* TeamTableViewController.swift */; };
+		63FDEFE8249424210030C411 /* TotalResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFE7249424210030C411 /* TotalResultsTableViewController.swift */; };
+		63FDEFEA249424510030C411 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDEFE9249424510030C411 /* LevelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		30CCB85A24936C4700A37A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30CCB85C24936C4700A37A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CCB8642493707800A37A24 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		63FDEFDD249423FB0030C411 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/CategoryViewController.swift; sourceTree = "<group>"; };
+		63FDEFDF249424030030C411 /* QuestionAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionAnswerViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/QuestionAnswerViewController.swift; sourceTree = "<group>"; };
+		63FDEFE1249424090030C411 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/ResultViewController.swift; sourceTree = "<group>"; };
+		63FDEFE3249424100030C411 /* TeamMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamMemberViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/TeamMemberViewController.swift; sourceTree = "<group>"; };
+		63FDEFE52494241A0030C411 /* TeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamTableViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/TeamTableViewController.swift; sourceTree = "<group>"; };
+		63FDEFE7249424210030C411 /* TotalResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TotalResultsTableViewController.swift; path = ../../../Quiz1/Quiz/ViewControlles/TotalResultsTableViewController.swift; sourceTree = "<group>"; };
+		63FDEFE9249424510030C411 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,13 @@
 		30CCB8622493700800A37A24 /* ViewControlles */ = {
 			isa = PBXGroup;
 			children = (
+				63FDEFE9249424510030C411 /* LevelViewController.swift */,
+				63FDEFDD249423FB0030C411 /* CategoryViewController.swift */,
+				63FDEFDF249424030030C411 /* QuestionAnswerViewController.swift */,
+				63FDEFE1249424090030C411 /* ResultViewController.swift */,
+				63FDEFE7249424210030C411 /* TotalResultsTableViewController.swift */,
+				63FDEFE52494241A0030C411 /* TeamTableViewController.swift */,
+				63FDEFE3249424100030C411 /* TeamMemberViewController.swift */,
 				30CCB85224936C4700A37A24 /* ViewController.swift */,
 			);
 			path = ViewControlles;
@@ -181,10 +202,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FDEFEA249424510030C411 /* LevelViewController.swift in Sources */,
+				63FDEFDE249423FC0030C411 /* CategoryViewController.swift in Sources */,
 				30CCB85324936C4700A37A24 /* ViewController.swift in Sources */,
+				63FDEFE2249424090030C411 /* ResultViewController.swift in Sources */,
+				63FDEFE0249424030030C411 /* QuestionAnswerViewController.swift in Sources */,
 				30CCB84F24936C4700A37A24 /* AppDelegate.swift in Sources */,
+				63FDEFE62494241A0030C411 /* TeamTableViewController.swift in Sources */,
 				30CCB85124936C4700A37A24 /* SceneDelegate.swift in Sources */,
 				30CCB8652493707800A37A24 /* Model.swift in Sources */,
+				63FDEFE4249424100030C411 /* TeamMemberViewController.swift in Sources */,
+				63FDEFE8249424210030C411 /* TotalResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
